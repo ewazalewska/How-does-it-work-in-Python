@@ -1,4 +1,4 @@
-# do not use an empty list as default argument to a function
+# do not use an empty list (mutable element) as default argument to a function
 
 def add_to_list(element, list_A=[]):    
     list_A.append(element)
